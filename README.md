@@ -1,7 +1,7 @@
-### Securing rest-end points using JWT token in Micronaut 2.0
+### Securing Rest Endpoints | Micronaut 2.0 | JWT | MySQL
 
-1. Get JWT token from our micronaut application.
-2. Use this bearer token to access secured end points.
+1. Micronaut Security + JWT token generation + MySQL
+2. Fetching JWT token and accessing secured endpoints using this bearer token. 
 
 # Micronaut 2.0 - JWT token Example
 
