@@ -12,6 +12,7 @@
 - Import project in Intellij or Eclipse
 - Run the application.
 - Use CURL or Postman to test it.
+- Update datasource in ``application.yml`` database details.
 - Execute database queries given below
 - Run Application
 - <b>Verification</b>: Test using postman
