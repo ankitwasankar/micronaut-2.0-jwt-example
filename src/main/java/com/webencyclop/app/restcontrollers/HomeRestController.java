@@ -1,22 +1,17 @@
 package com.webencyclop.app.restcontrollers;
 
-import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
-import io.micronaut.http.annotation.Produces;
 import io.micronaut.security.annotation.Secured;
 import io.micronaut.security.rules.SecurityRule;
 
-import java.security.Principal;
-
-@Controller("/demo")
-@Secured(SecurityRule.IS_AUTHENTICATED)
+@Controller("/")
+@Secured(SecurityRule.IS_ANONYMOUS)
 public class HomeRestController {
 
-    @Produces(MediaType.TEXT_PLAIN)
-    @Get("/one")
-    public String index(Principal principal) {
-        return principal.getName();
+    @Get
+    public String home() {
+        return "Server is  up and running! Use these rest end points: \n[POST]: /login  \n[GET]: /demo/one";
     }
 
 }

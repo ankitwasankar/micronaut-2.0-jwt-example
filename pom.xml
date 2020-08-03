@@ -19,6 +19,7 @@
         <exec.mainClass>com.webencyclop.app.Application</exec.mainClass>
         <micronaut.openapi.version>1.5.2</micronaut.openapi.version>
         <micronaut.data-jpa.version>1.1.3</micronaut.data-jpa.version>
+        <lombok.version>1.16.20</lombok.version>
     </properties>
 
     <repositories>
@@ -94,7 +95,6 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -125,7 +125,16 @@
         <dependency>
             <groupId>io.micronaut.data</groupId>
             <artifactId>micronaut-data-hibernate-jpa</artifactId>
-            <version>${micronaut.data-jpa.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.micronaut.data</groupId>
+            <artifactId>micronaut-data-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.micronaut.configuration</groupId>
+            <artifactId>micronaut-jdbc-hikari</artifactId>
+            <version>2.2.6</version>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 
@@ -175,8 +184,8 @@
                         </path>
                     </annotationProcessorPaths>
                     <compilerArgs>
-                        <arg>-Amicronaut.processing.group=com.example</arg>
-                        <arg>-Amicronaut.processing.module=demo</arg>
+                        <arg>-Amicronaut.processing.group=com.webencyclop.app</arg>
+                        <arg>-Amicronaut.processing.module=micronaut-2.0-jwt-example</arg>
                     </compilerArgs>
                 </configuration>
                 <executions>
