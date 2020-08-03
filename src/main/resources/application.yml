@@ -12,7 +12,7 @@ micronaut:
         signatures:
           secret:
             generator:
-              secret: '"${JWT_GENERATOR_SIGNATURE_SECRET:pleasvChangeThisSecretForANewOne}"'ō
+              secret: '"${JWT_GENERATOR_SIGNATURE_SECRET:pleasvChangeThisSecretForANewOne}"'
 
 datasources:
   default:
