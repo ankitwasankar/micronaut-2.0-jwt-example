@@ -20,7 +20,7 @@
 
 
 - Use JWT token to access secured rest end point:
-![](https://raw.githubusercontent.com/ankitwasankar/micronaut-2.0-jwt-example/master/src/test/resources/postman-sample.PNG)
+![](https://raw.githubusercontent.com/ankitwasankar/micronaut-2.0-jwt-example/master/src/test/resources/postman-sample2.PNG)
 
 ## References 
 
