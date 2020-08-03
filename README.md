@@ -12,7 +12,9 @@
 - Import project in Intellij or Eclipse
 - Run the application.
 - Use CURL or Postman to test it.
-- Execute database queries:
+- Execute database queries given below
+- Run Application
+- <b>Verification</b>: Test using postman
 
 #### 1. Execute database queries:
 ```roomsql
