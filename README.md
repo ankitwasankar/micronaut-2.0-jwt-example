@@ -10,11 +10,9 @@
 
 ### How to use this example
 - Import project in Intellij or Eclipse
-- Run the application.
-- Use CURL or Postman to test it.
 - Update datasource in ``application.yml`` database details.
-- Execute database queries given below
-- Run Application
+- Execute database queries given below in MySQL database.
+- Run the Application
 - <b>Verification</b>: Test using postman
 
 #### 1. Execute database queries:
