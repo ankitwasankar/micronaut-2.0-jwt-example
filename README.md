@@ -1,8 +1,3 @@
-### Securing rest-end points using JWT token in Micronaut 2.0
-
-1. Get JWT token from our micronaut application.
-2. Use this bearer token to access secured end points.
-
 # Micronaut 2.0 - JWT token Example
 
 ![](https://whyjava.files.wordpress.com/2018/12/micronaut-logo-white.jpg)
@@ -11,6 +6,10 @@
 
 
 
+### Securing rest-end points using JWT token in Micronaut 2.0
+
+1. Get JWT token from our micronaut application.
+2. Use this bearer token to access secured end points.
 
 
 
@@ -26,7 +25,8 @@
 
 
 
-###How to use this example
+
+### How to use this example
 - Import project in Intellij or Eclipse
 - Run the application.
 - Use CURL or Postman to test it.
