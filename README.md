@@ -1,22 +1,9 @@
-# Micronaut 2.0 - JWT token Example
-
-
 ### Securing rest-end points using JWT token in Micronaut 2.0
 
 1. Get JWT token from our micronaut application.
 2. Use this bearer token to access secured end points.
 
-
-
-
-
-
-
-
-
-
-
-
+# Micronaut 2.0 - JWT token Example
 
 
 
@@ -28,7 +15,7 @@
 
 #### Using Postman to test the application
 
-
+![](https://raw.githubusercontent.com/ankitwasankar/micronaut-2.0-jwt-example/master/src/test/resources/postman-sample.PNG)
 
 
 ## References 
