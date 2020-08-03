@@ -1,0 +1,19 @@
+micronaut:
+  application:
+    name: micronaut-2.0-jwt-example
+  security:
+    authentication: bearer
+    endpoints:
+      login:
+        enabled: true
+    token:
+      jwt:
+        enabled: true
+        signatures:
+          secret:
+            generator:
+              secret: '"${JWT_GENERATOR_SIGNATURE_SECRET:pleasvChangeThisSecretForANewOne}"'ō
+
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/demo
