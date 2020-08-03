@@ -1,10 +1,5 @@
 # Micronaut 2.0 - JWT token Example
 
-![](https://whyjava.files.wordpress.com/2018/12/micronaut-logo-white.jpg)
-
-
-
-
 
 ### Securing rest-end points using JWT token in Micronaut 2.0
 
