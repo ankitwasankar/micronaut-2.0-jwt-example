@@ -15,8 +15,12 @@
 
 #### Using Postman to test the application
 
+- Get JWT Token by providing username and password:
 ![](https://raw.githubusercontent.com/ankitwasankar/micronaut-2.0-jwt-example/master/src/test/resources/postman-sample.PNG)
 
+
+- Use JWT token to access secured rest end point:
+![](https://raw.githubusercontent.com/ankitwasankar/micronaut-2.0-jwt-example/master/src/test/resources/postman-sample.PNG)
 
 ## References 
 
